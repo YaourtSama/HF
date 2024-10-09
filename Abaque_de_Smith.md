@@ -1,14 +1,18 @@
 # Abaque de Smith
 
 L'abaque de Smith est un outil qui permet d'avoir une représentation graphique de calcul qui sert à exprimer et résoudre des problèmes avec les lignes de transmission et notamment les problèmes d'adaptation d'impédance.
-En effet, l'abaque permet de voir comment évolue
+
+En effet, l'abaque permet de voir comment évolue les coefficients de réflexion sur une grande bande de fréquence et permet donc d'adapter un circuit.
+
 ## Visualisation d'une abaque de Smith
 ![Abaque de Smith](https://upload.wikimedia.org/wikipedia/commons/7/74/Smith_chart3.svg "Abaque de Smith")
 
 L'abaque de Smith fonctionne avec ce que l'on appelle une impédance réduite, permettant d'avoir une échelle constante et donc les mêmes points caractéristiques peut importe l'échelle de base.
 
+Pour décaler les points sur une abaque il faut se placer sur le bon plan par rapport à la distance où nous sommes dans notre circuit (se déplacer sur un circuit reviens à faire tourner l'abaque, avec $\cfrac{\lambda}{8}$ un retournement de l'abaque, cf cercle des admittances)
+
 La formule de l'impédance réduite est la suivante: $z_T = \cfrac{Z_T}{Z_0}$
-Avec $Z_T$ l'impédance caractéristique (souvent 50 $\Omega$ ou 75 $\Omega$)
+Avec $Z_T$ l'impédance caractéristique (souvent 50 $\Omega$ ou 75 $\Omega$ pour une ligne coaxiale)
 
 ## Manipulation d'une abaque de Smith
 
@@ -34,10 +38,18 @@ où ${\omega }$ est la pulsation du signal. Contrairement au cas précédent, ce
 L'impédance d'un condensateur idéal de capacité  $C$ est:
 
  ${\underline {Z}}_{C}={1 \over j\omega C}={1 \over C\omega }e^{-j{\frac {\pi }{2}}}$
+
+# VNA
+
+Un VNA ou analyseur de réseau (Vector Network Analyzer) est un appareil de mesure qui permet de récupérer les paramètres-S d'un circuit. Il permet notamment d'afficher ceux-ci comme une abaque de Smith permettant d'avoir une représentation graphique de l'adaptation afin de l'améliorer
 ## Adapter un circuit en impédance
 
-Pour adapter un circuit, on utilise un VNA ou analyseur de réseau (Vector Network Analyzer) qui permet d'afficher les différents paramètres-S  
-
+Pour adapter un circuit, on utilise un  qui permet d'afficher les différents paramètres-S  
 # PIM (Passive Inter-Modulation)
 
 Voir Manip avec Thibaut
+
+
+## Rappels
+
+$\omega = 2{\pi}f$
