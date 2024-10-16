@@ -50,6 +50,45 @@ Pour adapter un circuit, on utilise un  qui permet d'afficher les différents pa
 Voir Manip avec Thibaut
 
 
-## Rappels
+# Rappels
 
 $\omega = 2{\pi}f$
+
+## Longueur électrique: 
+
+Somme des longueurs dans les différents milieux selon leur permittivité 
+Exemple pour un élément constitué d'air ($\epsilon_r = 1$) et de teflon ($\epsilon_r = 2,1$) avec pour longueurs respectives $x,y$ :
+
+$l_{elec} = x + \cfrac{y}{\sqrt{2,1}}$
+
+## Effet de Peau
+
+
+
+## Compatibilité électromagnétique (CEM) 
+
+
+## Électronique
+Base de l'électricité et des éléments constituant un circuit électronique
+
+### Dipôle
+
+Un dipôle est un composant ou un circuit ayant deux bornes ou deux pôles. Les dipôles peuvent être actifs ou passifs et sont les éléments de base des circuits électriques.
+
+#### Types de Dipôles
+
+1) Dipôles Passifs : Ces dipôles ne fournissent pas d'énergie au circuit:
+    - Résistance (R) : Limite le courant dans un circuit.
+    - Condensateur (C) : Stocke de l'énergie sous forme de champ électrique.
+    - Inducteur (L) : Stocke de l'énergie sous forme de champ magnétique.
+
+2) Dipôles Actifs : Ces dipôles peuvent fournir de l'énergie au circuit:
+    - Source de Tension : Fournit une tension constante ou variable.
+    - Source de Courant : Fournit un courant constant ou variable.
+    
+### Condensateur
+
+### Oscillateur 
+
+### Oscillateur local (OL)
+
